@@ -1,0 +1,410 @@
+/* PALETA DE COLORES */
+body {
+	background-color: #f5f5f5 !important;
+}
+
+a {
+	text-decoration: none !important;
+} 
+
+.cursor-disabled{
+	cursor: no-drop !important;
+}
+
+.padding-0 {
+	padding-left: 0px !important; 
+	padding-right: 0px !important; 
+}
+.none{
+	display: none !important;
+}
+
+
+.title-primary-1{
+	font-size: 150px; 
+	color: #fff
+}
+
+.title-primary-2{
+	font-size: 38px; 
+	color: #646464;
+}
+
+.text-p{
+	color: #12375C !important;
+}
+
+.text-s{
+	color: #646464 !important;
+}
+
+.card-text{
+	color: #646464;
+}
+
+.bg-primary{
+	background-color: #12375C !important;
+	color: #fff !important;
+}
+
+.bg-fafafa{
+	background-color: #fafafa;
+}
+
+.btn-primario{
+	background-color: #FF9D00 !important; 
+	color: #fff !important; 
+	width: 150px !important;
+	border-radius: 10px !important;
+}
+
+.btn-secondary{
+	background-color: #214a72; 
+	color: #fff; 
+	width: 130px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.btn-secondary:hover{
+	background-color: #12375c;
+	color: #fff; 
+}
+
+.btn-blue-grey{
+	background-color: #a0afbe; 
+	color: #fff; 
+	width: 130px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.btn-blue-grey:hover{
+	background-color: #58728c;
+	color: #fff; 
+}
+
+
+/* Buscador nav superior */
+.search-world{
+	width: 	80%; 
+	text-align: right;
+}
+
+.input-search {
+	width: 251px !important; 
+	border: 1px	solid #5c92c8; 
+	border-right: none; 
+	background: #214a72 !important;
+	color: #fff !important;
+}
+
+.input-buscador-2 {
+	width: 251px !important; 
+	border: 1px	solid #5c92c8; 
+	border-right: none; 
+	background: #fff !important;
+	color: #000 !important;
+}
+
+.icon-search-2 {
+    border: 1px solid #5c92c8;
+    border-left:  none;
+    background-color: #fff;
+    color: #fff;
+}
+
+.search-world .form-inline .form-control::placeholder {
+    color: #fff;
+    opacity: 1;
+}
+
+.icon-search {
+    border: 1px solid #5c92c8;
+    border-left:  none;
+    background-color: #214a72;
+    color: #fff;
+}
+/* END Buscador nav superior */
+
+
+/* Identificador de las vistas */
+.text-identifier-view{
+	font-size: 18px;
+	color: #12375C;
+}
+
+.identifier-view-1{
+	margin-top: -37px; 
+	border-radius: 7px 7px 0px 0px;
+}
+
+.identifier-view-2{
+	margin-top: -37px; 
+	background-color: #fff; 
+	padding: 5px; 
+	border-radius: 7px 7px 0px 0px;
+}
+/* END Identificador de las vistas */
+
+
+/* Tabs Principal */
+.tabs-principal  .nav-link.active {
+   border-bottom: 3px solid #24aaff;
+   color: #12375C !important;
+   font-weight: bold;
+}
+
+.tabs-principal .nav-link{
+    color: #646464 !important;
+}
+
+.nav-item-tabs-p {
+	min-width: 200px;
+	text-align: center;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.tabs-principal-content {
+	background: transparent !important;
+	padding: 0.25rem !important;
+	box-shadow: 0 .1rem .2rem rgba(0,0,0,.00) !important;
+	border-radius: 0 0 .0rem .0rem !important;
+}
+
+/* END Tabs Principal */
+
+/*Tabs Registro Clinico */
+.tabs-registry-clinical .nav-link{
+    background-color: #12375c !important;
+    color: #fff !important;
+    border: 0.1px solid #fff !important;
+}
+
+.tabs-registry-clinical  .nav-link.active {
+    background-color: #fff !important;
+    color: #000 !important;
+    border: 1px solid #5c92c8 !important;
+    border-bottom: none !important;
+}
+
+.tabs-registry-clinical-secondary .nav-link.active {
+   color: #12375C !important;
+   font-weight: bold;
+   border: 0.1px solid #fff !important;
+   border-bottom: 3px solid #24aaff !important;
+    
+}
+.tabs-registry-clinical-secondary   .nav-link{
+    background-color: #fff !important;
+    color: #646464 !important;
+}
+
+.nav-item-tabs-s {
+	min-width: 100px;
+	text-align: center;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+/* END Tabs Registro Clinico */
+
+/*Tabs Agenda */
+.tabs-diary .nav-link{
+    color: #000 !important;
+    padding: 0.3rem 1rem 1.2rem !important;
+    /*background-color: #12375c !important;*/
+    /*border: 0.1px solid #fff !important;*/
+}
+
+.tabs-diary  .nav-link.active {
+    background-color: #fff !important;
+    color: #000 !important;   
+    border-bottom: none !important;
+    border-radius: 35% 35% 0% 0% ;
+}
+
+.tabs-diary  .nav-link.active span{
+    background-color: #fff !important;
+    color: #12375c !important;  
+    font-weight: bold; 
+    font-size: 16px;
+
+    
+}
+
+.nav-item-tabs-num{
+	border-radius: 50%;
+	background-color: #12375c;
+	border: 2px solid #fff;
+	padding: 6px;
+	height: 34px;
+	width: 34px;
+	color: #fff;
+}
+
+
+.nav-item-tabs-a {
+	min-width: 80px;
+	text-align: center !important;	
+	align-items: center !important;
+	align-content: center !important;
+}
+
+/* END Tabs Agenda */
+
+.padding-lateral-0 {
+	padding-left: 0px !important; 
+	padding-right: 0px !important;
+}
+
+.padding-superior-10 {
+	padding-top: 10px; 
+	padding-bottom: 10px;
+}
+
+.bg-white{
+	background-color: #ffffff;
+}
+
+.input-date-search{
+	height: 47px;
+}
+
+.list-date-search{
+	max-height: 400px; 
+	overflow-y: auto;
+}
+
+.list-diary-ordenes{
+	max-height: 400px; 
+	overflow-y: auto;
+}
+
+.list-date-diary{
+	max-height: 400px; 
+	overflow-y: auto;
+}
+
+.list-date-vital-sign{
+	max-height: 300px; 
+	min-height: 100px; 
+	overflow-y: auto;
+}
+ 
+
+.list-date-health-care{
+	max-height: 300px; 
+	min-height: 100px; 
+	overflow-y: auto;
+}
+ 
+.list-observations-history{
+	max-height: 400px; 
+	overflow-y: auto;
+	
+}
+
+.card-mb-1{
+	margin-bottom: 1px !important;
+}
+
+.card-mb-5{
+	margin-bottom: 5px !important;
+}
+
+.card-mb-10{
+	margin-bottom: 10px !important;
+}
+
+.card-border{
+	border-radius: 8px !important;
+}
+
+.line-height-05 {
+	line-height: 0.5 !important;
+}
+
+.btn-agg-order{
+	border-radius: 50%;
+	background-color: #ff9d00;
+	border: 2px solid #fff;
+	margin-top: -5px;
+	padding: 5px;
+	color: #fff;
+	text-align: center;
+	font-size: .73rem;
+	line-height: 1.2;
+}
+
+.modal-footer{
+	border-top: none !important;
+}
+
+.modal-header{
+	border-bottom: none !important;
+}
+
+.border-dashed{
+	border-top: 2px dashed #12375c
+ }
+
+
+
+ /**MOBILE NAVBAR **/
+.mobile-navbar{
+	background-color: #12375c;
+	position:absolute;
+}
+.mobile-navbar-tab{
+	background-color:#f5f5f5;
+	color:#12375c;
+	border-radius: 7px 7px 0px 0px;
+	position:absolute;
+	bottom:0;
+	margin-bottom: -30px;
+}
+/**END MOBILE NAVBAR**/
+
+@media (max-width:360px){
+	/*
+	.background-color-mobile{
+		background-color: #FF9D00;
+	}
+	*/
+	.mobile-clinical-layout-avatar{
+		/*
+		margin-left: -110px;
+		background-color:red;
+		*/
+		width: 80px !important;
+		}
+		/*
+	.mobile-name-age-block{
+		background-color: purple !important;
+		position: float;
+		width: 80px !important;
+		padding-right: 0px !important;
+		padding-left: 0px !important;
+	}
+	
+*/
+	.age-text{
+		margin-top: -20px !important;
+	}
+	.red-background{
+		background-color: red;
+	}
+	.container-inline{
+		display:inline-block;
+		
+	}
+	.container-width{
+		min-width: 110px !important;
+		margin-left: 0px !important;
+		margin-right: 0px !important;
+		padding-left: 0px !important;
+		padding-right: 0px !important;
+	}
+}
